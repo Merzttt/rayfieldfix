@@ -121,7 +121,7 @@ Rayfield.Enabled = false
 
 if gethui then
 	Rayfield.Parent = gethui()
-elseif syn.protect_gui then 
+elseif protect_gui then 
 	protect_gui(Rayfield)
 	Rayfield.Parent = CoreGui
 elseif CoreGui:FindFirstChild("RobloxGui") then
